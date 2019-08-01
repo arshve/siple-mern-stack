@@ -4,11 +4,11 @@ Bootstrap,
 Axio,
 React,
 React-Route,
+React-Date,
 Express,
 MongoDB Atlas,
 Cors,
 DotEnv,
-Cors,
 Mongoose
 }
 

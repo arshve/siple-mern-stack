@@ -9,7 +9,10 @@ const Exercise = props => (
     <td>{props.exercise.duration}</td>
     <td>{props.exercise.date.substring(0, 10)}</td>
     <td>
-      <Link to={"/edit/" + props.exercise._id}>edit</Link> |{" "}
+      <button>
+        <Link to={"/edit/" + props.exercise._id}>edit</Link>
+      </button>{" "}
+      |{" "}
       <button
         // eslint-disable-next-line
         href="#"
@@ -69,6 +72,7 @@ export default class ExercisesList extends Component {
     return (
       <div>
         <h3>Running Log</h3>
+
         <table className="table">
           <thead className="thead-light">
             <tr>
